@@ -1,0 +1,40 @@
+title: GSoC 2026 GreenMetaData Sustainability Audit
+description: Sustainability audit of the scikit-learn classifier comparison workflow
+  measuring energy consumption of 10 ML classifiers using CodeCarbon and Green Algorithms
+  Calculator
+keywords:
+- machine learning
+- sustainability
+- carbon footprint
+- scikit-learn
+- CodeCarbon
+- energy hotspots
+repository: https://github.com/Habiba-Adel/greenmetadata-sustainability-audit
+Computing:
+  Embodied:
+    Carbon footprint:
+      Value (in gCO2e): '3.62'
+    Depletion of Abiotic Resources (Minerals, Metals): {}
+    Particule Matter Emissions: {}
+    Acidification potential: {}
+    Ionising Radiation Related to Human Health: {}
+    Photochemical Ozone Formation: {}
+    Abiotic Depletion Potential (Fossil Fuels): {}
+    Freshwater Eco-Toxicity Potential: {}
+  Operational:
+    Impact values:
+      Energy consumption (in kWh): '0.00402'
+    Methods and scope:
+      Software boundaries: {}
+      Tool stages: {}
+      Hardware boundaries:
+        Details on hardware used: Intel Core i7-9850H @ 2.60GHz, 12 cores, 32GB RAM,
+          local laptop, no GPU
+      Infrastructure:
+        Power Usage Effectiveness (PUE):
+          Value: '1.56'
+          Estimation method used: Default value used by Green Algorithms Calculator
+        Water usage effectiveness: {}
+      Electricity carbon intensity:
+        Value (in gCO2e/kWh): '900.6'
+        Source: Green Algorithms Calculator South Africa (closest available to Egypt)
